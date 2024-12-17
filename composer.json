@@ -1,0 +1,29 @@
+{
+    "name": "dandalf-the-puce/form-library-php",
+    "authors": [
+        {
+            "name": "Dan Blair",
+            "email": "1danblair@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dandalf\\FormLibrary\\": "src/"
+        }
+    },
+    "description": "Create PHP objects compatible with the form-spec",
+    "keywords": [
+        "forms"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "symfony/intl": "^6.4"
+    },
+    "suggest": {
+        "symfony/intl": "Add currency and locale validation"
+    },
+    "type": "library"
+}
